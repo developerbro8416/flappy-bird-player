@@ -19,7 +19,7 @@ public class Flappy_bird_player : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		if (Input.GetKeyDown(KeyCode.Space) && birdIsAlive)
+		if (Input.GetKeyDown(KeyCode.Space))
 		{
 			myRigidbody.velocity = Vector2.up * flapStrength;
 		}
